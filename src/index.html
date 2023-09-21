@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- <title>Крестики-нолики</title>
+        <link
+            rel="stylesheet"
+            href="./assets/styles/bootstrap-reboot.min.css"
+        />
+        <link rel="stylesheet" href="./assets/styles/style.css" /> -->
+    </head>
+    <body>
+        <div class="game">
+            <div class="board" id="board">
+                <div class="win_line" id="winLine"></div>
+                <!-- Создаем игровое поле с клетками -->
+            </div>
+            <div class="message" id="message">Ход игрока X</div>
+            <button class="reset-button" id="resetButton">Начать новую игру</button>
+            <div class="game_type-container">
+                Параметры игры: 
+                <select name="gametype" id="typeSelect">
+                    <option value="oneByOne" default>Друг против друга</option>
+                    <option value="easyBot">Легкий бот</option>
+                    <option value="hardBot">Сложный бот</option>
+                </select>
+            </div>
+        </div>
+        <!-- <script type="module" src="./js/main.js"></script> -->
+    </body>
+</html>
